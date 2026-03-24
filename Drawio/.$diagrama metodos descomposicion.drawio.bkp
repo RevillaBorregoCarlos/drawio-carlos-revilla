@@ -1,0 +1,194 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1" pages="2">
+  <diagram name="DirInt" id="Daff0cA8be7oe4a67Zdg">
+    <mxGraphModel dx="922" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P4BC3syba25WQccII3nk-6" edge="1" parent="1" source="P4BC3syba25WQccII3nk-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" target="P4BC3syba25WQccII3nk-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P4BC3syba25WQccII3nk-7" connectable="0" parent="P4BC3syba25WQccII3nk-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#3333FF;" value="GHI" vertex="1">
+          <mxGeometry relative="1" x="0.1778" y="1" as="geometry">
+            <mxPoint x="-21" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P4BC3syba25WQccII3nk-14" edge="1" parent="1" source="P4BC3syba25WQccII3nk-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="P4BC3syba25WQccII3nk-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="180" />
+              <mxPoint x="60" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P4BC3syba25WQccII3nk-15" connectable="0" parent="P4BC3syba25WQccII3nk-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#3333FF;" value="DNI" vertex="1">
+          <mxGeometry relative="1" x="0.3108" y="-1" as="geometry">
+            <mxPoint x="-19" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P4BC3syba25WQccII3nk-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Datos BSRN" vertex="1">
+          <mxGeometry height="40" width="120" x="140" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="P4BC3syba25WQccII3nk-2" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="100" width="20" x="270" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="P4BC3syba25WQccII3nk-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;" value="- DNI&lt;div&gt;- GHI&lt;/div&gt;&lt;div&gt;- DHI&lt;/div&gt;&lt;div&gt;- Elevaciónn solar&lt;/div&gt;&lt;div&gt;- Azimut solar&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="290" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="OfriO3pRIRcFa68_8tdK-1" edge="1" parent="1" source="P4BC3syba25WQccII3nk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="270.33333333333337" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P4BC3syba25WQccII3nk-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" value="PVLIB.dirint" vertex="1">
+          <mxGeometry height="40" width="120" x="140" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="P4BC3syba25WQccII3nk-21" edge="1" parent="1" source="P4BC3syba25WQccII3nk-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="242.43902439024396" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P4BC3syba25WQccII3nk-22" connectable="0" parent="P4BC3syba25WQccII3nk-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#FF0000;" value="DHI_dirint" vertex="1">
+          <mxGeometry relative="1" x="-0.18" y="-1" as="geometry">
+            <mxPoint x="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P4BC3syba25WQccII3nk-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" value="DHI_dirint = GHI - DNI_dirint·cos(sun_zen)" vertex="1">
+          <mxGeometry height="60" width="295" x="95" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="P4BC3syba25WQccII3nk-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.9;exitY=0.933;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="411" y="195.99" as="sourcePoint" />
+            <mxPoint x="460" y="196" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P4BC3syba25WQccII3nk-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Ángulo de zenit = 90 - Elevación solar" vertex="1">
+          <mxGeometry height="30" width="240" x="450" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="P4BC3syba25WQccII3nk-12" edge="1" parent="1" source="P4BC3syba25WQccII3nk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="357" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P4BC3syba25WQccII3nk-13" connectable="0" parent="P4BC3syba25WQccII3nk-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#FF0000;" value="DNI_dirint" vertex="1">
+          <mxGeometry relative="1" x="-0.1045" y="4" as="geometry">
+            <mxPoint x="-38" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P4BC3syba25WQccII3nk-16" edge="1" parent="1" source="P4BC3syba25WQccII3nk-11" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="P4BC3syba25WQccII3nk-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="370" as="sourcePoint" />
+            <mxPoint x="440" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P4BC3syba25WQccII3nk-17" connectable="0" parent="P4BC3syba25WQccII3nk-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#3333FF;" value="sun_zen" vertex="1">
+          <mxGeometry relative="1" x="-0.4909" y="-4" as="geometry">
+            <mxPoint x="-26" y="-37" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="DirIndex" id="CY1BdAt-h7pIFS_wey2O">
+    <mxGraphModel dx="763" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="VSmN2hYY0fyKC2BclZfg-0" />
+        <mxCell id="VSmN2hYY0fyKC2BclZfg-1" parent="VSmN2hYY0fyKC2BclZfg-0" />
+        <mxCell id="VSmN2hYY0fyKC2BclZfg-2" edge="1" parent="VSmN2hYY0fyKC2BclZfg-1" source="VSmN2hYY0fyKC2BclZfg-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" target="VSmN2hYY0fyKC2BclZfg-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSmN2hYY0fyKC2BclZfg-3" connectable="0" parent="VSmN2hYY0fyKC2BclZfg-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#3333FF;" value="GHI" vertex="1">
+          <mxGeometry relative="1" x="0.1778" y="1" as="geometry">
+            <mxPoint x="-21" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSmN2hYY0fyKC2BclZfg-4" edge="1" parent="VSmN2hYY0fyKC2BclZfg-1" source="VSmN2hYY0fyKC2BclZfg-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VSmN2hYY0fyKC2BclZfg-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="180" />
+              <mxPoint x="60" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSmN2hYY0fyKC2BclZfg-5" connectable="0" parent="VSmN2hYY0fyKC2BclZfg-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#3333FF;" value="DNI" vertex="1">
+          <mxGeometry relative="1" x="0.3108" y="-1" as="geometry">
+            <mxPoint x="-19" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSmN2hYY0fyKC2BclZfg-6" parent="VSmN2hYY0fyKC2BclZfg-1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Datos BSRN" vertex="1">
+          <mxGeometry height="40" width="120" x="140" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="VSmN2hYY0fyKC2BclZfg-7" parent="VSmN2hYY0fyKC2BclZfg-1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="130" width="20" x="270" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VSmN2hYY0fyKC2BclZfg-8" parent="VSmN2hYY0fyKC2BclZfg-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;" value="- DNI&lt;div&gt;- GHI&lt;/div&gt;&lt;div&gt;- DHI&lt;/div&gt;&lt;div&gt;- Elevaciónn solar&lt;/div&gt;&lt;div&gt;- Azimut solar&lt;/div&gt;&lt;div&gt;- GHI_cs&lt;/div&gt;&lt;div&gt;- DHI_cs&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="288" y="159" as="geometry" />
+        </mxCell>
+        <mxCell id="5bt26k4TM-Gmrvf4h9Ji-3" edge="1" parent="VSmN2hYY0fyKC2BclZfg-1" source="VSmN2hYY0fyKC2BclZfg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="280.04761904761904" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSmN2hYY0fyKC2BclZfg-9" parent="VSmN2hYY0fyKC2BclZfg-1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" value="PVLIB.dirindex" vertex="1">
+          <mxGeometry height="40" width="120" x="140" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="VSmN2hYY0fyKC2BclZfg-10" edge="1" parent="VSmN2hYY0fyKC2BclZfg-1" source="VSmN2hYY0fyKC2BclZfg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="242.43902439024396" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSmN2hYY0fyKC2BclZfg-11" connectable="0" parent="VSmN2hYY0fyKC2BclZfg-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#FF0000;" value="DHI_dirindex" vertex="1">
+          <mxGeometry relative="1" x="-0.18" y="-1" as="geometry">
+            <mxPoint x="38" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSmN2hYY0fyKC2BclZfg-12" parent="VSmN2hYY0fyKC2BclZfg-1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" value="DHI_dirint = GHI - DNI_dirint·cos(sun_zen)" vertex="1">
+          <mxGeometry height="60" width="295" x="95" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="VSmN2hYY0fyKC2BclZfg-13" edge="1" parent="VSmN2hYY0fyKC2BclZfg-1" style="endArrow=classic;html=1;rounded=0;exitX=0.9;exitY=0.933;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="414" y="174.5" as="sourcePoint" />
+            <mxPoint x="463" y="174.51" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSmN2hYY0fyKC2BclZfg-14" parent="VSmN2hYY0fyKC2BclZfg-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Ángulo de zenit = 90 - Elevación solar" vertex="1">
+          <mxGeometry height="30" width="240" x="449" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="VSmN2hYY0fyKC2BclZfg-15" edge="1" parent="VSmN2hYY0fyKC2BclZfg-1" source="VSmN2hYY0fyKC2BclZfg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="357" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSmN2hYY0fyKC2BclZfg-16" connectable="0" parent="VSmN2hYY0fyKC2BclZfg-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#FF0000;" value="DNI_dirindex" vertex="1">
+          <mxGeometry relative="1" x="-0.1045" y="4" as="geometry">
+            <mxPoint x="-44" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSmN2hYY0fyKC2BclZfg-17" edge="1" parent="VSmN2hYY0fyKC2BclZfg-1" source="VSmN2hYY0fyKC2BclZfg-14" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="VSmN2hYY0fyKC2BclZfg-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="370" as="sourcePoint" />
+            <mxPoint x="440" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSmN2hYY0fyKC2BclZfg-18" connectable="0" parent="VSmN2hYY0fyKC2BclZfg-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#3333FF;" value="sun_zen" vertex="1">
+          <mxGeometry relative="1" x="-0.4909" y="-4" as="geometry">
+            <mxPoint x="-26" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5bt26k4TM-Gmrvf4h9Ji-0" parent="VSmN2hYY0fyKC2BclZfg-1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;legacyAnchorPoints=0;size=0.5;" value="" vertex="1">
+          <mxGeometry height="40" width="20" x="348" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="5bt26k4TM-Gmrvf4h9Ji-2" edge="1" parent="VSmN2hYY0fyKC2BclZfg-1" source="5bt26k4TM-Gmrvf4h9Ji-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="VSmN2hYY0fyKC2BclZfg-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5bt26k4TM-Gmrvf4h9Ji-4" connectable="0" parent="5bt26k4TM-Gmrvf4h9Ji-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;GHI_cs&lt;/font&gt; y &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;DNI_cs&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.116" y="1" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5bt26k4TM-Gmrvf4h9Ji-1" parent="VSmN2hYY0fyKC2BclZfg-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF0000;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;DNI_cs&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="368" y="205" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
